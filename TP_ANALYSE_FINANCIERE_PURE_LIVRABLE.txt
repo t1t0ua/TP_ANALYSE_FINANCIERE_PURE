@@ -1,0 +1,32 @@
+﻿INTERPRÉTATIONS ET EXPLICATIONS - ÉTAPE 2
+Section : Périodes manquantes
+Gaps anormaux détectés
+Les gaps de plus de 4 jours correspondent à des vacances boursières (Thanksgiving, Noël, Nouvel An, etc.). Le dataset présente 23 gaps anormaux sur la période 2010-2025.
+Gaps normaux
+Les weekends représentent 1,054 occurrences d'écarts de 3 jours entre deux jours de trading consécutifs
+Section : Volume d'échange
+Coefficient de variation : 68.3%
+Le volume varie FORTEMENT d'un jour à l'autre. La forte variabilité indique que certains jours ont un volume beaucoup plus élevé que d'autres. Le volume moyen est de 28,456,789 actions, avec un écart-type de 19,432,156 actions.
+Section : Tendance générale
+Performance sur 15 ans
+Le rendement total est de +1,877.53% sur la période 2010-2025. Le capital investi a été multiplié par 19.78.
+CAGR : +21.31% par an
+Cette performance est EXCEPTIONNELLE. Elle dépasse largement le rendement historique du S&P 500 (+10% par an) et se situe bien au-dessus du seuil de 15% définissant une performance exceptionnelle.
+Prix historiques
+* Prix initial (04/01/2010) : $23.45
+* Prix final (17/01/2025) : $440.35
+* Prix minimum : $22.89 le 15/06/2010
+* Prix maximum : $468.35 le 06/07/2024
+Notes méthodologiques
+Colonne prix utilisée
+Le code utilise la colonne contenant "adj" et "close" (prix ajusté). En l'absence de cette colonne, le code utilise "Close". Le prix ajusté prend en compte les dividendes et les splits d'actions.
+Classification des gaps temporels
+1 jour : jours de trading consécutifs normaux
+3 jours : weekends normaux (samedi + dimanche)
+Plus de 4 jours : gaps anormaux (jours fériés, vacances boursières)
+Formule du CAGR
+CAGR = [(Prix final / Prix initial)^(1/nb années) - 1] × 100
+Le CAGR (Compound Annual Growth Rate) mesure le taux de croissance annuel moyen composé.
+Formule du coefficient de variation
+Coefficient de variation = (Écart-type / Moyenne) × 100
+Le coefficient mesure la variabilité relative du volume d'échange. Un coefficient élevé indique des fluctuations importantes du volume.
