@@ -21,11 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Extraction.py" />
-    <Compile Include="Partie_2.py" />
-    <Compile Include="Partie_3.py" />
     <Compile Include="Partie_4.py" />
     <Compile Include="Partie_5.py" />
+    <Compile Include="Partie_6.py" />
     <Compile Include="TP_ANALYSE_FINANCIERE_PURE.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
